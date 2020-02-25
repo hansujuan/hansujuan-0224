@@ -1,4 +1,4 @@
-package io.hsj.jcartadministrationback.dao.out;
+package com.hansujuan.jcartadministrationback.dto.out;
 
 public class AdministratorGetProfileOutDTO {
     private Integer administratorId;

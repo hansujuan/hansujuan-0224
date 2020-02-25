@@ -1,4 +1,4 @@
-package io.hsj.jcartadministrationback.dao.in;
+package com.hansujuan.jcartadministrationback.dto.in;
 
 public class AdministratorUpdateProfileInDTO {
     private String realName;

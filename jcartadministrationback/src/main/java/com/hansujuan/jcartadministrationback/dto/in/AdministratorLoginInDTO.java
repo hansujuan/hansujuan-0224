@@ -1,4 +1,4 @@
-package io.hsj.jcartadministrationback.dao.in;
+package com.hansujuan.jcartadministrationback.dto.in;
 
 public class AdministratorLoginInDTO {
     private String username;

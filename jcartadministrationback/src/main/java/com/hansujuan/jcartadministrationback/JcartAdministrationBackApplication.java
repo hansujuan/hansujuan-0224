@@ -1,4 +1,4 @@
-package io.hsj.jcartadministrationback;
+package com.hansujuan.jcartadministrationback;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
