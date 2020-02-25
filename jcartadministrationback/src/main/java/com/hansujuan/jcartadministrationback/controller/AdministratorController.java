@@ -57,4 +57,14 @@ public class AdministratorController {
     public void update(@RequestBody AdministratorUpdateInDTO administratorUpdateInDTO){
 
     }
+
+    @PostMapping("/delete")
+    public void delete(@RequestBody Integer adminstratorId){
+
+    }
+
+    @PostMapping("/batchDelete")
+    public void batchDelete(@RequestBody List<Integer> administratorIds){
+
+    }
 }
