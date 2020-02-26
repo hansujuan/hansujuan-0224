@@ -136,6 +136,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="JcartStoreBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jcartstoreback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hansujuan.jcartstoreback.JcartStoreBackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
