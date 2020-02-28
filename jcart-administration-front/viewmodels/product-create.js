@@ -8,6 +8,7 @@ var app = new Vue({
         stockQuantity: '',
         rewordPoints: '',
         sortOrder: '',
+        productAbstarct:'',
         description: '',
         selectedStatus: 1,
         selectedMainPic: '',

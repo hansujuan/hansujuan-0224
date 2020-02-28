@@ -12,8 +12,18 @@ public class ProductCreateInDTO {
     private String mainPicUrl;
     private Integer rewordPoints;
     private Integer sortOrder;
+    private String productAbstarct;
     private String description;
     private List<String> otherPicUrls;
+
+
+    public String getProductAbstarct() {
+        return productAbstarct;
+    }
+
+    public void setProductAbstarct(String productAbstarct) {
+        this.productAbstarct = productAbstarct;
+    }
 
     public String getProductCode() {
         return productCode;
