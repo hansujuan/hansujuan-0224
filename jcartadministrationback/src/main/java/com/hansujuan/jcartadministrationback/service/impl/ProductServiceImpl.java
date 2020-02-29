@@ -43,7 +43,7 @@ public class ProductServiceImpl implements ProductService {
 //        String description = productCreateInDTO.getDescription();
 //        String productAbstract =
 //                description.substring(0, Math.min(100, description.length()));
-        product.setProductAbstract(productCreateInDTO.getProductAbstarct());
+        product.setProductAbstract(productCreateInDTO.getProductAbstract());
         productMapper.insertSelective(product);
 
         Integer productId = product.getProductId();

@@ -25,7 +25,10 @@ var app = new Vue({
         otherFileList: []
     },
     mounted(){
-        console.log("121212");
+        tinymce.init({
+            selector: '#mytextarea'
+        });
+
         var url = new URL(location.href);
         this.productId = url.searchParams.get("productId");
         if (!this.productId) {
@@ -93,6 +96,7 @@ var app = new Vue({
         },
         handleUpdateClick(){
             console.log("click product update");
+            this.description = tinyMCE.activeEditor.getContent();
             this.updateProduct();
         },
         handleUploadOtherClick(){
