@@ -17,6 +17,8 @@
     <result column="reword_points" jdbcType="INTEGER" property="rewordPoints" />
     <result column="default_address_id" jdbcType="INTEGER" property="defaultAddressId" />
   </resultMap>
+
+
   <sql id="Base_Column_List">
     customer_id, username, real_name, avatar_url, encrypted_password, mobile, mobile_verified, 
     email, email_verified, status, create_time, news_subscribed, reword_points, default_address_id
@@ -196,4 +198,12 @@
       default_address_id = #{defaultAddressId,jdbcType=INTEGER}
     where customer_id = #{customerId,jdbcType=INTEGER}
   </update>
+
+  <!--  custom-->
+  <select id="selectByUsername" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from jcart_customer
+    where username = #{username}
+  </select>
 </mapper>
