@@ -1,10 +1,14 @@
 package com.hansujuan.jcartadministrationback.controller;
 
+import at.favre.lib.crypto.bcrypt.BCrypt;
+import com.hansujuan.jcartadministrationback.constant.ClientExceptionConstant;
 import com.hansujuan.jcartadministrationback.dto.in.*;
-import com.hansujuan.jcartadministrationback.dto.out.AdministratorGetProfileOutDTO;
-import com.hansujuan.jcartadministrationback.dto.out.AdministratorListOutDTO;
-import com.hansujuan.jcartadministrationback.dto.out.AdministratorShowOutDTO;
-import com.hansujuan.jcartadministrationback.dto.out.PageOutDTO;
+import com.hansujuan.jcartadministrationback.dto.out.*;
+import com.hansujuan.jcartadministrationback.exception.ClientException;
+import com.hansujuan.jcartadministrationback.po.Administrator;
+import com.hansujuan.jcartadministrationback.service.AdministratorService;
+import com.hansujuan.jcartadministrationback.util.JWTUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,19 +17,54 @@ import java.util.List;
 @RequestMapping("/administrator")
 public class AdministratorController {
 
+    @Autowired
+    private AdministratorService administratorService;
+
+    @Autowired
+    private JWTUtil jwtUtil;
+
     @GetMapping("/login")
-    public String login(AdministratorLoginInDTO administratorLoginInDTO){
-        return null;
+    public AdministratorLoginOutDTO login(AdministratorLoginInDTO administratorLoginInDTO) throws ClientException {
+
+        Administrator administrator = administratorService.selectByUsername(administratorLoginInDTO.getUsername());
+        if(administrator==null){
+            throw new ClientException(ClientExceptionConstant.ADMINISTRATOR_USERNAME_NOT_EXIST_ERRCODE,ClientExceptionConstant.ADMINISTRATOR_USERNAME_NOT_EXIST_ERRMSG);
+        }
+
+        String encryptedPassword = administrator.getEncryptedPassword();
+        BCrypt.Result verify = BCrypt.verifyer().verify(administratorLoginInDTO.getPassword().toCharArray(), encryptedPassword);
+        if(verify.verified){
+            AdministratorLoginOutDTO administratorLoginOutDTO = jwtUtil.issueToken(administrator);
+            return administratorLoginOutDTO;
+        }else{
+            throw new ClientException(ClientExceptionConstant.ADNINISTRATOR_PASSWORD_INVALID_ERRCODE,ClientExceptionConstant.ADNINISTRATOR_PASSWORD_INVALID_ERRMSG);
+        }
+
     }
 
     @GetMapping("/getProfile")
     public AdministratorGetProfileOutDTO getProfile(@RequestParam(required = false) Integer adminstratorId){
-        return null;
+        Administrator byId = administratorService.getById(adminstratorId);
+        AdministratorGetProfileOutDTO administratorGetProfileOutDTO = new AdministratorGetProfileOutDTO();
+        administratorGetProfileOutDTO.setAdministratorId(byId.getAdministratorId());
+        administratorGetProfileOutDTO.setUsername(byId.getUsername());
+        administratorGetProfileOutDTO.setRealName(byId.getRealName());
+        administratorGetProfileOutDTO.setEmail(byId.getEmail());
+        administratorGetProfileOutDTO.setAvatarUrl(byId.getAvatarUrl());
+        administratorGetProfileOutDTO.setCreateTimestamp(byId.getCreateTime().getTime());
+
+        return administratorGetProfileOutDTO;
     }
 
     @PostMapping("/updateProfile")
-    public void updateProfile(@RequestBody AdministratorUpdateProfileInDTO administratorUpdateProfileInDTO){
-
+    public void updateProfile(@RequestBody AdministratorUpdateProfileInDTO administratorUpdateProfileInDTO
+    ,@RequestAttribute Integer administratorId){
+        Administrator administrator = new Administrator();
+        administrator.setAdministratorId(administratorId);
+        administrator.setRealName(administratorUpdateProfileInDTO.getRealName());
+        administrator.setEmail(administratorUpdateProfileInDTO.getEmail());
+        administrator.setAvatarUrl(administratorUpdateProfileInDTO.getAvatarUrl());
+        administratorService.update(administrator);
     }
 
     @GetMapping("/getPwdResetCode")
