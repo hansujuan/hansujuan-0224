@@ -134,4 +134,19 @@
     from jcart_administrator
     where username = #{username}
   </select>
+
+  <delete id="batchDelete">
+    delete from jcart_administrator
+    where administrator_id in
+    <foreach item="item" index="index" collection="administratorIds"
+             open="(" separator="," close=")">
+      #{item}
+    </foreach>
+  </delete>
+
+  <select id="selectList" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from jcart_administrator
+  </select>
 </mapper>

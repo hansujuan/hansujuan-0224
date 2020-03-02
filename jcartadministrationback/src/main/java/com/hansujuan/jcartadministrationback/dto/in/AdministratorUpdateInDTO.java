@@ -7,6 +7,15 @@ public class AdministratorUpdateInDTO {
     private String password;
     private String email;
     private Byte status;
+    private String avatarUrl;
+
+    public String getAvatarUrl() {
+        return avatarUrl;
+    }
+
+    public void setAvatarUrl(String avatarUrl) {
+        this.avatarUrl = avatarUrl;
+    }
 
     public Integer getAdministratorId() {
         return administratorId;
