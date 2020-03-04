@@ -14,6 +14,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/address")
+@CrossOrigin
 public class AddressController {
 
     @Autowired

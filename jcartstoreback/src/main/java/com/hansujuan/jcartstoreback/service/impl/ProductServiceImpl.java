@@ -32,7 +32,7 @@ public class ProductServiceImpl implements ProductService {
         return page;
     }
 
-    public ProductShowOutDTO getById(Integer productId) {
+    public ProductShowOutDTO getShowById(Integer productId) {
         Product product = productMapper.selectByPrimaryKey(productId);
         ProductDetail productDetail = productDetailMapper.selectByPrimaryKey(productId);
 
@@ -52,5 +52,10 @@ public class ProductServiceImpl implements ProductService {
         productShowOutDTO.setOtherPicUrls(otherPicUrls);
 
         return productShowOutDTO;
+    }
+
+    public Product getById(Integer productId) {
+        Product product = productMapper.selectByPrimaryKey(productId);
+        return product;
     }
 }
