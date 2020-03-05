@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/dao/OrderHistoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/dao/OrderHistoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/dao/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/dao/OrderMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/dto/out/OrderShowOutDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/dto/out/OrderShowOutDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/hansujuan/jcartstoreback/dao/OrderHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hansujuan/jcartstoreback/dao/OrderHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/hansujuan/jcartstoreback/dao/OrderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hansujuan/jcartstoreback/dao/OrderMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +108,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583392549888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583392785378" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -183,17 +173,17 @@
       <workItem from="1583129552371" duration="625000" />
       <workItem from="1583216156054" duration="5162000" />
       <workItem from="1583302170337" duration="8115000" />
-      <workItem from="1583388845842" duration="3694000" />
+      <workItem from="1583388845842" duration="3801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20924000" />
+    <option name="totallyTimeSpent" value="21031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.33812407" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.33812407" />
       <window_info id="Structure" order="1" sideWeight="0.5030303" side_tool="true" weight="0.26096824" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -204,7 +194,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3207856" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.34369886" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.42716858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
