@@ -1,6 +1,8 @@
 package com.hansujuan.jcartstoreback.dao;
 
+import com.github.pagehelper.Page;
 import com.hansujuan.jcartstoreback.po.Order;
+import org.apache.ibatis.annotations.Param;
 
 public interface OrderMapper {
     int deleteByPrimaryKey(Long orderId);
@@ -14,4 +16,8 @@ public interface OrderMapper {
     int updateByPrimaryKeySelective(Order record);
 
     int updateByPrimaryKey(Order record);
+
+    Page<Order> selectByCustomerId(@Param("customerId") Integer customerId);
+
+
 }

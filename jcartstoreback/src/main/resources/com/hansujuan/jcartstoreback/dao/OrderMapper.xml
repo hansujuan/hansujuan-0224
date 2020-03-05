@@ -10,6 +10,16 @@
     <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
     <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
   </resultMap>
+
+  <resultMap id="ProductListOutDTO" type="com.hansujuan.jcartstoreback.dto.out.ProductListOutDTO">
+    <id column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="product_code" jdbcType="VARCHAR" property="productCode" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="product_abstract" jdbcType="VARCHAR" property="productAbstract" />
+    <result column="price" jdbcType="DOUBLE" property="price" />
+    <result column="discount" jdbcType="DOUBLE" property="discount" />
+    <result column="main_pic_url" jdbcType="VARCHAR" property="mainPicUrl" />
+  </resultMap>
   <sql id="Base_Column_List">
     order_id, customer_id, status, total_price, reword_points, create_time, update_time
   </sql>
@@ -110,4 +120,13 @@
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where order_id = #{orderId,jdbcType=BIGINT}
   </update>
+
+  <!--  custom-->
+  <select id="selectByCustomerId" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from jcart_order
+    where customer_id = #{customerId}
+    order by create_time desc
+  </select>
 </mapper>
