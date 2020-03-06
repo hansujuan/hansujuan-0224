@@ -18,6 +18,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/customer")
+@CrossOrigin
 public class CustomerController {
 
     @Autowired
@@ -27,8 +28,8 @@ public class CustomerController {
     private AddressService addressService;
 
     @GetMapping("/search")
-    public PageOutDTO<CustomerListOutDTO> search(@RequestBody CustomerSearchInDTO customerSearchInDTO
-    , @RequestParam Integer pageNum){
+    public PageOutDTO<CustomerListOutDTO> search(CustomerSearchInDTO customerSearchInDTO
+    , @RequestParam(required = false, defaultValue = "1") Integer pageNum){
 
         Page<Customer> search = customerService.search(pageNum);
         List<CustomerListOutDTO> customerListOutDTOS = search.stream().map(customer -> {
