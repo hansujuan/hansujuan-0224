@@ -20,6 +20,8 @@ public class OrderShowOutDTO {
     private String invoiceAddress;
     private Double invoicePrice;
     private String comment;
+
+
     private List<OrderProductVO> orderProducts;
 
     public String getCustomerName() {

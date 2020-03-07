@@ -10,15 +10,84 @@
 </head>
 
 <body>
-<div id="app">
-    
-</div>
+    <div id="app">
+        订单Id：{{orderId}} <br>
+        客户姓名：{{customerName}} <br>
+        订单状态：{{status}} <br>
+        总价：{{totalPrice}} <br>
+        积分：{{rewordPoints}} <br>
+        下单时间：{{createTimestamp}} <br>
+        更新时间：{{updateTimestamp}} <br>
+        寄送方式：{{shipMethod}} <br>
+        寄送地址：{{shipAddress}} <br>
+        邮费：{{shipPrice}} <br>
+        支付方式：{{payMethod}} <br>
+        发票地址：{{invoiceAddress}} <br>
+        发票金额：{{invoicePrice}} <br>
+        备注：{{comment}} <br>
+        <br>
 
-<script src="assets/js/axios.min.js"></script>
-<script src="assets/js/common.js"></script>
-<script src="assets/js/vue.js"></script>
-<script src="assets/js/elementui.js"></script>
-<script src="viewmodels/order-show.js"></script>
+        <el-table :data="orderProducts" style="width: 100%">
+            <el-table-column prop="productCode" label="商品代码">
+            </el-table-column>
+            <el-table-column prop="productName" label="商品名称">
+            </el-table-column>
+            <el-table-column prop="unitPrice" label="单价">
+            </el-table-column>
+            <el-table-column prop="quantity" label="数量">
+            </el-table-column>
+            <el-table-column prop="totalPrice" label="总计">
+            </el-table-column>
+        </el-table>
+        <br>
+        总价：{{totalPrice}}<br>
+        运费：{{shipPrice}}<br>
+        支付价：{{totalPrice + shipPrice}}<br>
+        <br>
+
+        <el-divider>订单历史</el-divider>
+
+        <el-table :data="orderHistories" style="width: 100%">
+            <el-table-column prop="timestamp" label="时间">
+            </el-table-column>
+            <el-table-column prop="comment" label="备注">
+            </el-table-column>
+            <el-table-column prop="orderStatus" label="订单状态">
+            </el-table-column>
+            <el-table-column label="通知客户">
+                <template slot-scope="scope">
+                    {{scope.row.customerNotified}}
+                </template>
+            </el-table-column>
+            </el-table-column>
+        </el-table>
+        <br>
+        <br>
+
+        添加订单历史<br><br>
+        <el-select v-model="createHistoryOrderStatus" placeholder="请选择订单状态">
+            <el-option v-for="item in orderStatuses" :key="item.value" :label="item.label" :value="item.value">
+            </el-option>
+        </el-select>
+        <br>
+        <br>
+
+        <el-checkbox v-model="createHistoryCustomerNotified">通知客户</el-checkbox>
+        <br>
+        <br>
+
+        <el-input v-model="createHistoryComment" type="textarea" placeholder="请输入备注"></el-input>
+        <br>
+        <br>
+
+        <el-button type="primary" @click="handleCreateOrderHistoryClick">添加订单历史</el-button>
+    </div>
+
+    <script src="assets/js/axios.min.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/vue.js"></script>
+    <script src="assets/js/elementui.js"></script>
+    <script src="viewmodels/order-show.js"></script>
 
 </body>
 
