@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/controller/AddressController.java" afterDir="false" />
-    </list>
+    <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,21 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/controller/AddressController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-              <folding>
-                <element signature="e#2846#2847#0" expanded="true" />
-                <element signature="e#2894#2895#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,6 +119,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\baweixuexi\hansujuan\hansujuan-0224\jcartstoreback\src\main\java\com\hansujuan\jcartstoreback\dto\out" />
       <recent name="D:\baweixuexi\hansujuan\hansujuan-0224\jcartstoreback\src\main\java\com\hansujuan\jcartstoreback\enumeration" />
       <recent name="D:\baweixuexi\hansujuan\hansujuan-0224\jcartstoreback\src\main\java\com\hansujuan\jcartstoreback\vo" />
       <recent name="D:\baweixuexi\hansujuan\hansujuan-0224\jcartstoreback\src\main\java\com\hansujuan\jcartstoreback\filter" />
@@ -197,12 +182,12 @@
       <workItem from="1583302170337" duration="8115000" />
       <workItem from="1583388845842" duration="3801000" />
       <workItem from="1583565436838" duration="3849000" />
-      <workItem from="1583630169215" duration="2914000" />
+      <workItem from="1583630169215" duration="2969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27794000" />
+    <option name="totallyTimeSpent" value="27849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -218,7 +203,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3207856" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.23895253" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.23895253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -786,8 +771,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartstoreback/controller/AddressController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="484">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
           <folding>
             <element signature="e#2846#2847#0" expanded="true" />
             <element signature="e#2894#2895#0" expanded="true" />
