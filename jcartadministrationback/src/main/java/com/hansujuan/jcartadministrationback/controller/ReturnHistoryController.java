@@ -44,8 +44,7 @@ public class ReturnHistoryController {
         returnHistory.setTime(new Date());
         returnHistory.setReturnStatus(returnHistoryCreateInDTO.getReturnStatus());
         returnHistory.setComment(returnHistoryCreateInDTO.getComment());
-
-        Boolean customerNotified = returnHistoryCreateInDTO.getCustomerNotifeid();
+        Boolean customerNotified = returnHistoryCreateInDTO.getCustomerNotified();
 
         returnHistory.setCustomerNotified(customerNotified);
         Long returnHistoryId = returnHistoryService.create(returnHistory);
