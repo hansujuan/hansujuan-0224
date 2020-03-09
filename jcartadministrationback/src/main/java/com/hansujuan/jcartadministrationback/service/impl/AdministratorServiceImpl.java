@@ -47,4 +47,9 @@ public class AdministratorServiceImpl implements AdministratorService {
         Page<Administrator> administrators = administratorMapper.selectList();
         return administrators;
     }
+
+    public Administrator getByEmail(String email) {
+
+        return administratorMapper.selectByEmail(email);
+    }
 }
