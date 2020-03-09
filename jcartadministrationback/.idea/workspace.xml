@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="938342ee-37d1-430e-83da-e5230358727a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/constant/ClientExceptionConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/constant/ClientExceptionConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dao/AdministratorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dao/AdministratorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/service/AdministratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/service/AdministratorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/service/impl/AdministratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/service/impl/AdministratorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/hansujuan/jcartadministrationback/dao/AdministratorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/hansujuan/jcartadministrationback/dao/AdministratorMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="938342ee-37d1-430e-83da-e5230358727a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,10 +18,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+            <state relative-caret-position="87">
+              <caret line="93" column="33" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1533#1558#1" expanded="true" />
                 <element signature="method#login#0;class#AdministratorController#0" />
                 <element signature="method#getProfile#0;class#AdministratorController#0" />
@@ -312,12 +304,12 @@
       <workItem from="1583498770374" duration="96000" />
       <workItem from="1583561591758" duration="2835000" />
       <workItem from="1583635006502" duration="2558000" />
-      <workItem from="1583733945298" duration="6313000" />
+      <workItem from="1583733945298" duration="6931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71731000" />
+    <option name="totallyTimeSpent" value="72349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -334,7 +326,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20294599" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.06873977" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28150573" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -828,10 +820,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+        <state relative-caret-position="87">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1533#1558#1" expanded="true" />
             <element signature="method#login#0;class#AdministratorController#0" />
             <element signature="method#getProfile#0;class#AdministratorController#0" />
