@@ -6,6 +6,7 @@ import com.github.pagehelper.PageHelper;
 import com.hansujuan.jcartadministrationback.dao.ProductDetailMapper;
 import com.hansujuan.jcartadministrationback.dao.ProductMapper;
 import com.hansujuan.jcartadministrationback.dto.in.ProductCreateInDTO;
+import com.hansujuan.jcartadministrationback.dto.in.ProductSearchInDTO;
 import com.hansujuan.jcartadministrationback.dto.in.ProductUpdateInDTO;
 import com.hansujuan.jcartadministrationback.dto.out.ProductListOutDTO;
 import com.hansujuan.jcartadministrationback.dto.out.ProductShowOutDTO;
@@ -92,9 +93,15 @@ public class ProductServiceImpl implements ProductService {
         productDetailMapper.batchDelete(productIds);
     }
 
-    public Page<ProductListOutDTO> search(Integer pageNum) {
+    public Page<ProductListOutDTO> search(ProductSearchInDTO productSearchInDTO, Integer pageNum) {
         PageHelper.startPage(pageNum, 10);
-        Page<ProductListOutDTO> page = productMapper.search();
+        Page<ProductListOutDTO> page = productMapper.search(
+                productSearchInDTO.getProductCode(),
+                productSearchInDTO.getStatus(),
+                productSearchInDTO.getStockQuantity(),
+                productSearchInDTO.getPrice(),
+                productSearchInDTO.getProductName()
+        );
         return page;
     }
 

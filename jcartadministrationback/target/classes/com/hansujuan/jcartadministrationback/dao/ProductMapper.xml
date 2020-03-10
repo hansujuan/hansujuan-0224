@@ -180,5 +180,22 @@
     select
     <include refid="Base_Column_List" />
     from jcart_product
+    <where>
+      <if test="productCode != null and productCode != ''">
+        product_code = #{productCode}
+      </if>
+      <if test="status != null">
+        and status = #{status}
+      </if>
+      <if test="stockQuantity != null">
+        and stock_quantity &lt;= #{stockQuantity}
+      </if>
+      <if test="price != null">
+        and price &lt;= #{price}
+      </if>
+      <if test="productName != null and productName != ''">
+        and product_name like concat('%',#{productName},'%')
+      </if>
+    </where>
   </select>
 </mapper>

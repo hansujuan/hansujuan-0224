@@ -16,4 +16,5 @@ jcartstoreback/src/main/resources/application-exclude.properties
 jcartadministrationback/src/main/resources/application-exclude.properties
 .gitignore
 jcartstoreback/.idea/
-jcartadministrationback/.idea/
+jcartadministrationback/.idea/workspace.xml
+jcartadministrationback/target/classes
