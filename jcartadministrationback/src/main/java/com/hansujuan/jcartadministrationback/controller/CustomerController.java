@@ -31,7 +31,7 @@ public class CustomerController {
     public PageOutDTO<CustomerListOutDTO> search(CustomerSearchInDTO customerSearchInDTO
     , @RequestParam(required = false, defaultValue = "1") Integer pageNum){
 
-        Page<Customer> search = customerService.search(pageNum);
+        Page<Customer> search = customerService.search(customerSearchInDTO,pageNum);
         List<CustomerListOutDTO> customerListOutDTOS = search.stream().map(customer -> {
             CustomerListOutDTO customerListOutDTO = new CustomerListOutDTO();
             customerListOutDTO.setCustomerId(customer.getCustomerId());

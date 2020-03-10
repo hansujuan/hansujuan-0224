@@ -3,6 +3,7 @@ package com.hansujuan.jcartadministrationback.service.impl;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.hansujuan.jcartadministrationback.dao.CustomerMapper;
+import com.hansujuan.jcartadministrationback.dto.in.CustomerSearchInDTO;
 import com.hansujuan.jcartadministrationback.dto.in.CustomerSetStatusInDTO;
 import com.hansujuan.jcartadministrationback.po.Customer;
 import com.hansujuan.jcartadministrationback.service.CustomerService;
@@ -17,9 +18,15 @@ public class CustomerServiceImpl implements CustomerService {
     private CustomerMapper customerMapper;
 
 
-    public Page<Customer> search(Integer pageNum) {
+    public Page<Customer> search(CustomerSearchInDTO customerSearchInDTO, Integer pageNum) {
         PageHelper.startPage(pageNum,10);
-        Page<Customer> search = customerMapper.search();
+        Page<Customer> search = customerMapper.search(
+                customerSearchInDTO.getUsername(),
+                customerSearchInDTO.getRealName(),
+                customerSearchInDTO.getMobile(),
+                customerSearchInDTO.getEmail(),
+                customerSearchInDTO.getStatus()
+        );
         return search;
     }
 
