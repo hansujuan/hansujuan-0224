@@ -7,25 +7,47 @@ var app = new Vue({
             { value: 0, label: '禁用' },
             { value: 1, label: '启用' },
             { value: 2, label: '不安全' }
-        ]
+        ],
+        username: '',
+        realName: '',
+        mobile: '',
+        email: '',
+        selectedStatus: ''
     },
     mounted() {
         console.log('view mounted');
         this.searchCustomer();
     },
     methods: {
+        handleSearchClick() {
+            this.pageNum = 1;
+            this.searchCustomer();
+        },
+        handleClearClick() {
+            this.username = '';
+            this.realName = '';
+            this.mobile = '';
+            this.email = '';
+            this.selectedStatus = '';
+            this.searchCustomer();
+        },
         handlePageChange() {
             console.log('pageNum change');
             this.searchCustomer();
         },
-        handleUpdateStatus() {
-            console.log('update status');
-            this.updateCustomerStatus();
+        handleUpdateStatus(index, row) {
+            console.log('update status click');
+            this.updateCustomerStatus(row.customerId, row.status);
         },
         searchCustomer() {
             axios.get('/customer/search', {
                 params: {
-                    pageNum: this.pageNum
+                    pageNum: this.pageNum,
+                    username: this.username,
+                    realName: this.realName,
+                    mobile: this.mobile,
+                    email: this.email,
+                    status: this.selectedStatus
                 }
             })
                 .then(function (response) {
@@ -36,7 +58,7 @@ var app = new Vue({
                     console.log(error);
                 });
         },
-        updateCustomerStatus(){
+        updateCustomerStatus(customerId, status) {
             axios.post('/customer/setStatus', {
                 customerId: customerId,
                 status: status
