@@ -17,16 +17,17 @@ var app = new Vue({
             { value: 10, label: '完成' },
             { value: 11, label: '待评价' },
             { value: 12, label: '已评价' }
-        ]
+        ],
+        
     },
     mounted() {
         console.log('return list');
         this.getMyReturn();
     },
     methods: {
-        handlePageChange(val){
+        handlePageChange(val) {
             console.log('pageNum change');
-            this.pageNum=val;
+            this.pageNum = val;
 
         },
         getMyReturn() {

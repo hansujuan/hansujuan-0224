@@ -53,6 +53,7 @@ public class OrderServiceImpl implements OrderService {
             orderProductVO.setProductId(orderProduct.getProductId());
             orderProductVO.setProductCode(orderProduct.getProductCode());
             orderProductVO.setProductName(orderProduct.getProductName());
+            orderProductVO.setUnitPrice(orderProduct.getPrice());
             Integer quantity = orderProductInDTO.getQuantity();
             orderProductVO.setQuantity(quantity);
 
