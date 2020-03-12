@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="" />
+    <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../jcart-store-front/return-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-store-front/return-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jcart-store-front/viewmodels/return-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-store-front/viewmodels/return-index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +137,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="505" />
     <option name="y" value="66" />
     <option name="width" value="937" />
@@ -292,15 +295,15 @@
       <workItem from="1583565436838" duration="3849000" />
       <workItem from="1583630169215" duration="2969000" />
       <workItem from="1583996782371" duration="1239000" />
-      <workItem from="1583999614500" duration="3465000" />
+      <workItem from="1583999614500" duration="3486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32553000" />
+    <option name="totallyTimeSpent" value="32574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.19742814" />

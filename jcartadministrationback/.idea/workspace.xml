@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="938342ee-37d1-430e-83da-e5230358727a" name="Default Changelist" comment="" />
+    <list default="true" id="938342ee-37d1-430e-83da-e5230358727a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../jcart-store-front/return-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-store-front/return-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jcart-store-front/viewmodels/return-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-store-front/viewmodels/return-index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -267,12 +270,12 @@
       <workItem from="1583819657423" duration="6466000" />
       <workItem from="1583905702747" duration="8051000" />
       <workItem from="1583994315808" duration="1851000" />
-      <workItem from="1583998718034" duration="1846000" />
+      <workItem from="1583998718034" duration="1872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91437000" />
+    <option name="totallyTimeSpent" value="91463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
