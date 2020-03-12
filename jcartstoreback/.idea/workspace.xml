@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="" />
+    <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../jcartadministrationback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jcartadministrationback/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +93,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="505" />
     <option name="y" value="66" />
     <option name="width" value="937" />
@@ -102,9 +105,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jcartstoreback" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcartstoreback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcartstoreback" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcartstoreback" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcartstoreback" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcartstoreback" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcartstoreback" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcartstoreback" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcartstoreback" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcartstoreback" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jcartstoreback" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,16 +223,17 @@
       <workItem from="1583565436838" duration="3849000" />
       <workItem from="1583630169215" duration="2969000" />
       <workItem from="1583996782371" duration="1239000" />
+      <workItem from="1583999614500" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29088000" />
+    <option name="totallyTimeSpent" value="29711000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.24886535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.33207262" />
       <window_info id="Structure" order="1" sideWeight="0.5030303" side_tool="true" weight="0.26096824" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -204,7 +244,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3207856" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.23895253" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.23895253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />

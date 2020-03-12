@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938342ee-37d1-430e-83da-e5230358727a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../jcart-administration-front/product-update.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-administration-front/product-update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jcartstoreback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jcartstoreback/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="191" column="70" lean-forward="true" selection-start-line="191" selection-start-column="70" selection-end-line="191" selection-end-column="70" />
+            <state relative-caret-position="88">
+              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding>
                 <element signature="method#login#0;class#AdministratorController#0" />
                 <element signature="method#getList#0;class#AdministratorController#0" />
@@ -163,10 +164,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="435" />
-    <option name="y" value="91" />
+    <option name="x" value="505" />
+    <option name="y" value="66" />
     <option name="width" value="937" />
-    <option name="height" value="555" />
+    <option name="height" value="560" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -174,9 +175,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jcartadministrationback" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcartadministrationback" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,16 +270,17 @@
       <workItem from="1583819657423" duration="6466000" />
       <workItem from="1583905702747" duration="8051000" />
       <workItem from="1583994315808" duration="1851000" />
+      <workItem from="1583998718034" duration="1272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89591000" />
+    <option name="totallyTimeSpent" value="90863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36308622" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1709531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -279,7 +291,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20294599" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25204584" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2700491" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -750,8 +762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="191" column="70" lean-forward="true" selection-start-line="191" selection-start-column="70" selection-end-line="191" selection-end-column="70" />
+        <state relative-caret-position="88">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
           <folding>
             <element signature="method#login#0;class#AdministratorController#0" />
             <element signature="method#getList#0;class#AdministratorController#0" />
