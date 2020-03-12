@@ -11,24 +11,24 @@
 
 <body>
     <div id="app">
-        <el-input v-model="productCode" placeholder="请输入商品代码" readonly></el-input>
-        <el-input v-model="productName" placeholder="请输入商品名称"></el-input>
-        <el-input v-model="price" placeholder="请输入价格"></el-input>
-        <el-input v-model="discount" placeholder="请输入打折"></el-input>
-        <el-input v-model="stockQuantity" placeholder="请输入库存量"></el-input>
-        <el-input v-model="rewordPoints" placeholder="请输入积分"></el-input>
-        <el-input v-model="sortOrder" placeholder="请输入排序"></el-input>
-        <el-input v-model="productAbstract" type="textarea" placeholder="请输入摘要"></el-input>
+        商品Id：<el-input v-model="productCode" placeholder="请输入商品代码" readonly></el-input>
+        商品名称：<el-input v-model="productName" placeholder="请输入商品名称"></el-input>
+        商品价格：<el-input v-model="price" placeholder="请输入价格"></el-input>
+        打折：<el-input v-model="discount" placeholder="请输入打折"></el-input>
+        库存量：<el-input v-model="stockQuantity" placeholder="请输入库存量"></el-input>
+        积分：<el-input v-model="rewordPoints" placeholder="请输入积分"></el-input>
+        排序：<el-input v-model="sortOrder" placeholder="请输入排序"></el-input>
+        摘要：<el-input v-model="productAbstract" type="textarea" placeholder="请输入摘要"></el-input>
         <!-- <el-input v-model="description" type="textarea" placeholder="请输入描述"></el-input> -->
-        <textarea id="mytextarea">{{description}}</textarea>
+        描述：<textarea id="mytextarea">{{description}}</textarea>
 
-        <el-select v-model="selectedStatus" placeholder="请选择状态">
+        状态：<el-select v-model="selectedStatus" placeholder="请选择状态">
             <el-option v-for="item in statuses" :key="item.value" :label="item.label" :value="item.value">
             </el-option>
         </el-select>
 
 
-        <el-upload ref="uploadMainPic" action="" :http-request="uploadMainImage" :limit="1" accept="image/*"
+        主图：<el-upload ref="uploadMainPic" action="" :http-request="uploadMainImage" :limit="1" accept="image/*"
             :auto-upload="false" :on-change="handleOnMainChange" :file-list="mainFileList">
             <el-button slot="trigger" size="small" type="primary">选取主图</el-button>
             <el-button size="small" type="success" @click="handleUploadMainClick">上传</el-button>
@@ -38,7 +38,7 @@
         上传后主图：<el-link type="primary">{{mainPicUrl}}</el-link>
 
 
-        <el-upload ref="uploadOtherPics" multiple action="uploadOtherImages" :limit="9" accept="iamge/*"
+        附加图片：<el-upload ref="uploadOtherPics" multiple action="uploadOtherImages" :limit="9" accept="iamge/*"
             :on-change="handleOnOtherChange" :on-remove="handleOnOtherRemove" :file-list="otherFileList" :auto-upload="false">
             <el-button slot="trigger" size="small" type="primary">选取其他图片</el-button>
             <el-button size="small" type="success" @click="handleUploadOtherClick">上传</el-button>
