@@ -1,6 +1,7 @@
 var app = new Vue({
     el: '#app',
     data: {
+        administratorId: '',
         username: '',
         realName: '',
         email: '',

@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938342ee-37d1-430e-83da-e5230358727a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hansujuan/jcartadministrationback/controller/AdministratorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jcart-administration-front/viewmodels/administrator-update-profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-administration-front/viewmodels/administrator-update-profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+            <state relative-caret-position="792">
+              <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
               <folding>
                 <element signature="method#login#0;class#AdministratorController#0" />
                 <element signature="method#getList#0;class#AdministratorController#0" />
@@ -164,7 +163,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="348" />
     <option name="y" value="50" />
     <option name="width" value="937" />
@@ -176,7 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,7 +246,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,7 +257,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583912822772" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583914082206" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -328,18 +327,18 @@
       <workItem from="1583635006502" duration="2558000" />
       <workItem from="1583733945298" duration="7805000" />
       <workItem from="1583819657423" duration="6466000" />
-      <workItem from="1583905702747" duration="6502000" />
+      <workItem from="1583905702747" duration="8051000" />
+      <workItem from="1583994315808" duration="279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86191000" />
+    <option name="totallyTimeSpent" value="88019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24130106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -350,7 +349,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20294599" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3420622" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5008183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -413,26 +412,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="56" lean-forward="true" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -747,23 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dto/in/OrderSearchInDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/service/impl/OrderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -782,20 +745,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dto/in/CustomerSearchInDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -831,10 +781,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dto/in/OrderSearchInDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dto/in/AdministratorResetPwdInDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        <state relative-caret-position="792">
+          <caret line="93" column="35" lean-forward="true" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
           <folding>
             <element signature="method#login#0;class#AdministratorController#0" />
             <element signature="method#getList#0;class#AdministratorController#0" />
