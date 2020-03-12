@@ -14,8 +14,12 @@
         <el-input v-model="mainPicUrl" placeholder="主图" readonly></el-input>
         <el-input v-model="otherPicUrlsJson" placeholder="其他图片" readonly></el-input>
         <el-input v-model="productName" placeholder="名称" readonly></el-input>
-        <el-input v-model="price" placeholder="价格" readonly></el-input>
-        <el-input v-model="discount" placeholder="打折" readonly></el-input>
+        <!-- <el-input v-model="price" placeholder="价格" readonly></el-input>
+        <el-input v-model="discount" placeholder="打折" readonly></el-input> -->
+        原价：
+        <s>{{price}}</s><br>
+        打折后价格：
+        {{(price*discount).toFixed(2)}}
         <!-- <el-input v-model="description" placeholder="描述" readonly></el-input> -->
         <el-input v-model="stockQuantity" placeholder="库存" readonly></el-input>
         描述<div v-html="description"></div>
