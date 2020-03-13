@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00998e69-582a-4d2a-bdec-72ab21489d2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../jcart-store-front/product-show.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jcart-store-front/product-show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jcartadministrationback/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jcartadministrationback/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -102,7 +103,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="505" />
     <option name="y" value="66" />
     <option name="width" value="937" />
@@ -250,15 +251,15 @@
       <workItem from="1583996782371" duration="1239000" />
       <workItem from="1583999614500" duration="4568000" />
       <workItem from="1584078879349" duration="721000" />
-      <workItem from="1584083565826" duration="697000" />
+      <workItem from="1584083565826" duration="1810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35074000" />
+    <option name="totallyTimeSpent" value="36187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.20347957" />
@@ -272,7 +273,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3207856" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" visible="true" weight="0.37315875" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49924356" weight="0.37315875" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
