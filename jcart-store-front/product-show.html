@@ -12,7 +12,9 @@
 <body>
     <div id="app">
         <el-input v-model="mainPicUrl" placeholder="主图" readonly></el-input>
+        <el-image style="width: 100px; height: 100px" :src="mainPicUrl" fit="fill"></el-image>
         <el-input v-model="otherPicUrlsJson" placeholder="其他图片" readonly></el-input>
+        <el-image v-for="item in otherPicUrls" style="width: 60px; height: 60px" :src="item" fit="fill" :preview-src-list="otherPicUrls"></el-image>
         <el-input v-model="productName" placeholder="名称" readonly></el-input>
         {{discount}}
         <!-- <el-input v-model="price" placeholder="价格" readonly></el-input>
