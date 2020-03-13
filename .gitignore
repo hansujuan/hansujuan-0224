@@ -11,7 +11,8 @@ target/
 .idea/
 *.jar
 ~*
-
+jcartadministrationback/.idea/workspace.xml
+jcartadministrationback/www/image
 jcartstoreback/src/main/resources/application-exclude.properties
 jcartadministrationback/src/main/resources/application-exclude.properties
 .gitignore
