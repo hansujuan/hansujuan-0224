@@ -19,6 +19,10 @@ var app = new Vue({
         this.searchProduct();
     },
     methods: {
+        handleEdit(index,row){
+            console.log('product edit click', index, row);
+            location.href = 'product-update.html?productId=' + row.productId;
+        },
         handleSearchClick(){
             this.pageNum=1,
             this.searchProduct();

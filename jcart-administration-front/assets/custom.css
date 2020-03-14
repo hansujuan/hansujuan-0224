@@ -1,0 +1,19 @@
+
+.jc-header {
+    height: 60px;
+    position: fixed;
+    z-index: 100;
+    background-color: skyblue;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.el-dropdown-link {
+    cursor: pointer;
+    color: #409EFF;
+}
+
+.el-icon-arrow-down {
+    font-size: 12px;
+}
