@@ -48,6 +48,11 @@ const OrderSearchRoutePage = {
                     {{(new Date(scope.row.updateTimestamp)).toLocaleString()}}
                 </template>
             </el-table-column>
+            <el-table-column label="操作">
+            <template slot-scope="scope">
+                <el-button size="mini" type="primary" @click="handleShowClick(scope.$index, scope.row)">详情</el-button>
+            </template>
+        </el-table-column>
         </el-table>
 
         <el-pagination layout="prev, pager, next" :total="pageInfo.total" @current-change="handlePageChange">
@@ -86,6 +91,9 @@ const OrderSearchRoutePage = {
         this.searchOrder();
     },
     methods: {
+        handleShowClick(index, row) {
+            this.$router.push('/order/show/' + row.orderId);
+        },
         handleSearchClick() {
             console.log('search click');
             this.pageNum = 1;

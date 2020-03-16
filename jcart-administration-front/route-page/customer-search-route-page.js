@@ -39,6 +39,8 @@ const CustomerSearchRoutePage = {
             </el-table-column>
             <el-table-column label="操作">
                 <template slot-scope="scope">
+                    <el-button type="primary" size="mini" @click="handleShowClick(scope.$index, scope.row)">详情
+                    </el-button>
                     <el-button type="primary" size="mini" @click="handleUpdateStatus(scope.$index, scope.row)">更新状态
                     </el-button>
                 </template>
@@ -70,6 +72,9 @@ const CustomerSearchRoutePage = {
         this.searchCustomer();
     },
     methods: {
+        handleShowClick(index, row) {
+            this.$router.push('/customer/show/' + row.customerId);
+        },
         handleSearchClick() {
             console.log('search click');
             this.pageNum = 1;
