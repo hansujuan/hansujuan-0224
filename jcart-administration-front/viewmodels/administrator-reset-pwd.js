@@ -15,6 +15,7 @@ var app = new Vue({
                 return;
             }
 
+            
             this.resetAdministratorPwd();
         },
         resetAdministratorPwd(){

@@ -6,6 +6,7 @@ var app = new Vue({
     methods:{
         handleFindBackPwdClick(){
             console.log('get pwd');
+            this.loading=true;
             this.getPwdResetCode();
         },
         getPwdResetCode(){
@@ -16,6 +17,7 @@ var app = new Vue({
             })
                 .then(function (response) {
                     console.log(response);
+                    this.loading=false;
                     alert('重置码已发送到邮箱');
                 })
                 .catch(function (error) {

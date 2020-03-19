@@ -11,6 +11,7 @@ target/
 .idea/
 *.jar
 ~*
+testdemo
 jcartadministrationback/.idea/workspace.xml
 jcartadministrationback/www/image
 jcartstoreback/src/main/resources/application-exclude.properties
