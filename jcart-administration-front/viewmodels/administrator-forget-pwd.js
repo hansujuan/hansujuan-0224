@@ -1,12 +1,25 @@
 var app = new Vue({
     el: '#app',
     data: {
-        email: ''
+        email: '',
+        loading:false,
+        buttonEnabled:true,
+        counter:60,
     },
     methods:{
         handleFindBackPwdClick(){
             console.log('get pwd');
             this.loading=true;
+            this.buttonEnabled=false;
+            this.counter = 60;
+
+            setInterval(function(){
+                console.log('counter down');
+                app.counter--;
+                if(app.counter < 0){
+                    this.buttonEnabled=true;
+                }
+            },1000);
             this.getPwdResetCode();
         },
         getPwdResetCode(){
@@ -17,7 +30,7 @@ var app = new Vue({
             })
                 .then(function (response) {
                     console.log(response);
-                    this.loading=false;
+                    app.loading=false;
                     alert('重置码已发送到邮箱');
                 })
                 .catch(function (error) {
