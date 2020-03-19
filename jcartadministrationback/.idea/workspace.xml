@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="938342ee-37d1-430e-83da-e5230358727a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/JcartAdministrationBackApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/JcartAdministrationBackApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,10 +49,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/util/EmailUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+            <state relative-caret-position="704">
+              <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
               <folding>
                 <element signature="method#login#0;class#AdministratorController#0" />
                 <element signature="method#getList#0;class#AdministratorController#0" />
@@ -70,9 +81,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dao/OrderHistoryMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/service/impl/OrderHistoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/hansujuan/jcartadministrationback/dao/OrderHistoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/po/OrderHistory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/OrderHistoryController.java" />
@@ -133,11 +142,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dto/in/AdministratorCreateInDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/ImageController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/hansujuan/jcartadministrationback/dao/AdministratorMapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/JcartAdministrationBackApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/util/EmailUtil.java" />
       </list>
     </option>
   </component>
@@ -167,8 +178,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="284" />
-    <option name="y" value="210" />
+    <option name="x" value="365" />
+    <option name="y" value="90" />
     <option name="width" value="937" />
     <option name="height" value="560" />
   </component>
@@ -225,6 +236,15 @@
               <item name="jcartadministrationback" type="b2602c69:ProjectViewProjectNode" />
               <item name="jcartadministrationback" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jcartadministrationback" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jcartadministrationback" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jcartadministrationback" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -242,7 +262,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584431549637" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584602483792" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -280,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AdministratorMapperTest.selectByUsername">
+  <component name="RunManager" selected="Spring Boot.JcartAdministrationBackApplication">
     <configuration name="AdministratorMapperTest.selectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jcartadministrationback" />
       <extension name="coverage">
@@ -353,7 +373,7 @@
       <workItem from="1584427668499" duration="1047000" />
       <workItem from="1584430185958" duration="264000" />
       <workItem from="1584430507951" duration="1039000" />
-      <workItem from="1584600070928" duration="341000" />
+      <workItem from="1584600070928" duration="1988000" />
     </task>
     <servers />
   </component>
@@ -370,15 +390,18 @@
     <history-entry file="AdministratorMapperTest_selectByUsername - 2020.03.17 at 15h 42m 03s.xml">
       <configuration name="AdministratorMapperTest.selectByUsername" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AdministratorMapperTest_selectByUsername - 2020.03.19 at 15h 15m 31s.xml">
+      <configuration name="AdministratorMapperTest.selectByUsername" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103807000" />
+    <option name="totallyTimeSpent" value="105454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="284" y="210" width="937" height="560" extended-state="1" />
+    <frame x="365" y="90" width="937" height="560" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2668187" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2668187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -389,7 +412,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20294599" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42553192" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42388758" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -453,23 +476,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/dto/out/OrderShowOutDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/vo/OrderProductVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/po/OrderDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-88">
@@ -852,15 +858,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/JcartAdministrationBackApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/controller/AdministratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+        <state relative-caret-position="704">
+          <caret line="99" column="9" lean-forward="true" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
           <folding>
             <element signature="method#login#0;class#AdministratorController#0" />
             <element signature="method#getList#0;class#AdministratorController#0" />
             <element signature="method#getById#0;class#AdministratorController#0" />
             <element signature="method#update#0;class#AdministratorController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hansujuan/jcartadministrationback/util/EmailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

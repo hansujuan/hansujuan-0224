@@ -19,4 +19,5 @@ jcartadministrationback/src/main/resources/application-exclude.properties
 .gitignore
 jcartstoreback/.idea/
 jcartadministrationback/.idea/workspace.xml
-jcartadministrationback/target/classes
+
+D:\baweixuexi\hansujuan\hansujuan-0224\jcartadministrationback\target\classes\com\hansujuan\jcartadministrationback/*.class

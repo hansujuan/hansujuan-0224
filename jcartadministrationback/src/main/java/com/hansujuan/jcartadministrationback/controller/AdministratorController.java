@@ -9,6 +9,7 @@ import com.hansujuan.jcartadministrationback.enumeration.AdministratorStatus;
 import com.hansujuan.jcartadministrationback.exception.ClientException;
 import com.hansujuan.jcartadministrationback.po.Administrator;
 import com.hansujuan.jcartadministrationback.service.AdministratorService;
+import com.hansujuan.jcartadministrationback.util.EmailUtil;
 import com.hansujuan.jcartadministrationback.util.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -40,7 +41,7 @@ public class AdministratorController {
     private SecureRandom secureRandom;
 
     @Autowired
-    private JavaMailSender mailSender;
+    private EmailUtil emailUtil;
 
     @Value("${spring.mail.username}")
     private String fromEmail;
@@ -99,12 +100,8 @@ public class AdministratorController {
         }
         byte[] bytes = secureRandom.generateSeed(3);
         String hex = DatatypeConverter.printHexBinary(bytes);
-        SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom(fromEmail);
-        message.setTo(email);
-        message.setSubject("jcart管理端管理员密码重置");
-        message.setText(hex);
-        mailSender.send(message);
+        emailUtil.send(fromEmail,email,"jcart管理端管理员密码重置",hex);
+//        异步重新开启一个线程 ，spring注解的方式，使方法变成异步的，框架帮我们做掉的，方便简洁
         //todo send messasge to MQ
         emailPwdResetCodeMap.put(email, hex);
     }
